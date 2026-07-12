@@ -2,7 +2,7 @@
 
 An open-source Windows download manager: an IDM-style UI/UX on top of the [aria2](https://aria2.github.io/) download engine, with one feature IDM doesn't have — **per-download network interface selection**.
 
-100% MIT/GPL, no telemetry, no ads, no bundled offers.
+MIT/GPL, no telemetry, no ads, no bundled offers.
 
 ## Status
 
@@ -50,4 +50,4 @@ GPL-3.0-or-later for this project's own code (see `LICENSE`). Bundles aria2c (GP
 
 ## Contributing
 
-Issues and PRs welcome. Please keep new dependencies MIT/BSD/Apache-2.0/GPL-compatible and avoid adding any telemetry or analytics SDKs — that's a hard project rule, not a preference.
+Issues and PRs welcome. Please keep new dependencies MIT/BSD/Apache-2.0/GPL-compatible and avoid adding any telemetry or analytics SDKs
