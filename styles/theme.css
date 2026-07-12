@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root,
+[data-theme='dark'] {
+  --bg-app: #1b1d22;
+  --bg-panel: #22252c;
+  --bg-panel-raised: #2a2e37;
+  --bg-hover: #313640;
+  --border: #363b46;
+  --text-primary: #e7e9ee;
+  --text-secondary: #9aa1b0;
+  --text-tertiary: #666d7d;
+  --accent: #4da3ff;
+  --accent-dim: #2c5f96;
+  --ok: #35c98f;
+  --warn: #f5a623;
+  --error: #ef5a5a;
+  --shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --font-ui: 'Inter', -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Consolas', monospace;
+}
+
+[data-theme='light'] {
+  --bg-app: #f4f5f7;
+  --bg-panel: #ffffff;
+  --bg-panel-raised: #ffffff;
+  --bg-hover: #eef0f4;
+  --border: #dde1e8;
+  --text-primary: #1b1d22;
+  --text-secondary: #565d6d;
+  --text-tertiary: #8a90a0;
+  --accent: #1f6fd6;
+  --accent-dim: #d6e6fb;
+  --ok: #1f9d6e;
+  --warn: #b97400;
+  --error: #c8433f;
+  --shadow: 0 8px 24px rgba(20, 24, 34, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: var(--bg-app);
+  color: var(--text-primary);
+  font-family: var(--font-ui);
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+button {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
